@@ -12,7 +12,8 @@ arr.map((item) => {
 
 function findEven(item) {
      if (item % 2 == 0) {
-       return console.log(item);
+         return console.log(item);
+         
     }
 }
 

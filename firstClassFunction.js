@@ -1,4 +1,7 @@
 // function  passed  as parameter to the another function
+//function  can be returned from another function
+// function can be assigned to the variable
+
 
 const f1 = function (x) {
     return x * x;

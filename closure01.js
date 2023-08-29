@@ -9,6 +9,6 @@ local1();
 console.log(name2);
 function local2() {
     var name2 = 'raunak'
-    ///// ->  raunak is accesible
+    ///// ->  raunak is not accesible
 }
 local2();

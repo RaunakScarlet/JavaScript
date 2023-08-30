@@ -9,3 +9,10 @@ function print1to5(num) {
 }
 
 print1to5(0);
+
+for (let i = 0; i < 5; i++){
+    
+    setTimeout(() => {
+        console.log(i);
+    }, i * 1000);
+}

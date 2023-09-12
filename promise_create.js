@@ -23,3 +23,4 @@ function createPromise() {
 };
 let y = createPromise();
 console.log(y);
+console.log("hhiii");

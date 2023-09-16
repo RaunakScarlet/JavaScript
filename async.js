@@ -6,8 +6,7 @@ async function fun() {
 }
 
 console.log('start');
-let val = fun();
-val.then(function f(value) {
+let val = fun().then(function f(value) {
     console.log('value is', value);
 })
 console.log('end');
